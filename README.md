@@ -1,32 +1,70 @@
-# Case Management application
+# Getting Started with Create React App
 
-## Starting the website on your local machine
-Just start `CaseManagementApplication` with the *dev* profile and keep it running.
-This will startup the website using a local database on port **8080**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Browsing to http://localhost:8080 should give you the homepage.
+## Available Scripts
 
-> NOTE: you can force the dev profile by specifying system property *-Dspring.profiles.active=dev* 
+In the project directory, you can run:
 
-## Front-end development
-When starting on your local machine, you should get instant reloading of all static files.
-Simply make a change and refresh the page in your browser.
+### `yarn start`
 
-All front-end related static files are located in `src/main/resources/views`.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-> WARNING: _All files in `src/main/resources` will be packaged and deployed with the website.
-> Do not put any files anywhere in that folder if they are not supposed to be deployed!
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### LiveReload integration
-The application supports LiveReload.
-If you have the plugin in your browser, just activating it on the site should be enough.
+### `yarn test`
 
-### Templating system
-The application is built using Thymeleaf 3 for templating.
-User documentation: http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Troubleshooting
-### Resetting the local database
-Starting up locally will create a local database in a folder `local-data/db`.
-If you find any problems starting up the application, try removing this folder and then restarting.
+### `yarn build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

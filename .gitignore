@@ -1,28 +1,23 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Java template
-*.class
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# BlueJ files
-*.ctxt
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# testing
+/coverage
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# production
+/build
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-### Sass template
-.sass-cache/
-*.css.map
-
-### Custom ignores
-target
-.idea
-*.iml
-db
+# misc
 .DS_Store
-local-data
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
