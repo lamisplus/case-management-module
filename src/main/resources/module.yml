@@ -1,0 +1,6 @@
+name: CaseManagement
+version: 1.0.0
+basePackage: org.lamisplus.modules.casemanagement
+menuUrl: /across/resources/static/casemanagement/index.html
+menuName: Case Management
+description: Case Management
